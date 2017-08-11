@@ -6,8 +6,10 @@ import Pool from "../classes/Pool.class";
 
 export class Level {
     create() {
+
+        game.stage.backgroundColor = "#222";
         this.platformPool = [];
-        this.player = new Player("player");
+        this.player = new Player("hero");
 
         this.platforms = new Pool(Platform, {sprites: ["platform"], size: 75});
         this.controller();
@@ -35,7 +37,7 @@ export class Level {
         const height = Math.floor(Math.random() * 5 +1) * 32;
         const previousHeight = this.platformPool.length
             ? this.platformPool[this.platformPool.length-1].children[0].body.y
-            : 368;
+            : 624;
         const upOrDown = previousHeight < 320;
         const newPool = new Pool(Platform, {sprites: ['platform'], size});
         console.log(`creating line of ${size} blocks`);

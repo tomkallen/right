@@ -1,7 +1,7 @@
 import game from "../game";
 import GameObject from "./Object.class";
 
-export default class Platform extends GameObject{
+export default class Platform extends GameObject {
     constructor(sprite) {
         super(game, 0, 0, sprite);
         this.game = game;
@@ -12,7 +12,14 @@ export default class Platform extends GameObject{
         this.reset(x, y);
         this.exists = true;
         this.active = true;
-        this.body.velocity.x = -128;
+        this.body.velocity.x = -160;
     };
+
+    update() {
+        if (this.x < -100) {
+            game.log(`destroy out of bounds`);
+            this.destroy();
+        }
+    }
 
 }

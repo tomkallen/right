@@ -1,7 +1,8 @@
 import Phaser from "phaser-ce";
+import game from "../game";
 
 export default class Player extends Phaser.Sprite {
-    constructor(sprite, name) {
+    constructor(sprite) {
         super(game, 0, 0, sprite);
         this.game = game;
 
@@ -11,9 +12,6 @@ export default class Player extends Phaser.Sprite {
         this.body.allowGravity = true;
         this.body.immovable = false;
         this.speed = 100;
-        this.level = 1;
-        this.experience = 0;
-        this.direction = 1;
         this.jumpVelocity = -520
     };
 

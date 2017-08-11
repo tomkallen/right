@@ -1,5 +1,6 @@
 import game from "../game";
 
+
 export class Preload {
     preload() {
         /* Enabling dev mode */
@@ -7,8 +8,8 @@ export class Preload {
 
         game.load.script('webfont', '//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
 
-        game.load.sprite('player', 'sprites/triangle.png');
-        game.load.sprite('platform', 'sprites/platform.png');
+        game.load.image('player', 'sprites/triangle.png');
+        game.load.image('platform', 'sprites/platform.png');
         game.load.spritesheet('hero', 'sprites/hero.png', 40, 48);
 
     }

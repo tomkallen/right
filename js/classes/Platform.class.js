@@ -3,9 +3,9 @@ import GameObject from "./Object.class";
 
 export default class Platform extends GameObject {
     constructor(sprite) {
-        super(game, 0, 0, sprite);
+        super(sprite);
         this.game = game;
-        this.body.immovable = true;
+        this.body.immovable = true
     };
 
     spawn(x, y) {

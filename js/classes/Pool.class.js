@@ -36,7 +36,6 @@ export default class Pool extends Phaser.Group {
 
     getRandomSprite() {
         const sprite  = this.sprites[Math.floor(Math.random() * this.sprites.length)];
-        game.log(sprite)
         return sprite;
     };
 }

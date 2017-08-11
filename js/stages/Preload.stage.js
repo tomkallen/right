@@ -5,13 +5,9 @@ export class Preload {
     preload() {
         /* Enabling dev mode */
         game.devMode = true;
-
         game.load.script('webfont', '//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
-
         game.load.image('player', 'sprites/triangle.png');
         game.load.image('platform', 'sprites/platform.png');
-        game.load.spritesheet('hero', 'sprites/hero.png', 40, 48);
-
     }
 
     create() {

@@ -5,6 +5,7 @@ export default class Platform extends GameObject{
     constructor(sprite) {
         super(game, 0, 0, sprite);
         this.game = game;
+        this.body.immovable = true;
     };
 
     spawn(x, y) {

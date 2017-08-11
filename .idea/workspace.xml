@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14604e7-872b-4f99-a6e4-3427bc9821d8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/classes/Enemy.class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/classes/Flag.class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/classes/Item.class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/classes/Projectile.class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/text.plugin.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/classes/Platform.class.js" afterPath="$PROJECT_DIR$/js/classes/Platform.class.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/classes/Player.class.js" afterPath="$PROJECT_DIR$/js/classes/Player.class.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/classes/Pool.class.js" afterPath="$PROJECT_DIR$/js/classes/Pool.class.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/classes/index.js" afterPath="$PROJECT_DIR$/js/classes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/game.js" afterPath="$PROJECT_DIR$/js/game.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/stages/Level.stage.js" afterPath="$PROJECT_DIR$/js/stages/Level.stage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/stages/Preload.stage.js" afterPath="$PROJECT_DIR$/js/stages/Preload.stage.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +19,8 @@
       <file leaf-file-name="Platform.class.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/classes/Platform.class.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="252">
+              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -72,7 +63,7 @@
       <file leaf-file-name="Pool.class.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/classes/Pool.class.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="155">
               <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding />
             </state>
@@ -82,8 +73,8 @@
       <file leaf-file-name="Level.stage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/stages/Level.stage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -106,8 +97,8 @@
       <file leaf-file-name="Player.class.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/classes/Player.class.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="28" column="78" lean-forward="false" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+            <state relative-caret-position="162">
+              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -130,11 +121,11 @@
       <list>
         <option value="$PROJECT_DIR$/js/stages/index.js" />
         <option value="$PROJECT_DIR$/js/classes/Pool.class.js" />
-        <option value="$PROJECT_DIR$/js/classes/Platform.class.js" />
-        <option value="$PROJECT_DIR$/js/stages/Preload.stage.js" />
         <option value="$PROJECT_DIR$/js/classes/index.js" />
         <option value="$PROJECT_DIR$/js/game.js" />
+        <option value="$PROJECT_DIR$/js/stages/Preload.stage.js" />
         <option value="$PROJECT_DIR$/js/classes/Player.class.js" />
+        <option value="$PROJECT_DIR$/js/classes/Platform.class.js" />
         <option value="$PROJECT_DIR$/js/stages/Level.stage.js" />
       </list>
     </option>
@@ -338,7 +329,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502435175780</updated>
-      <workItem from="1502435177379" duration="3615000" />
+      <workItem from="1502435177379" duration="6859000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1502436057571</created>
@@ -354,11 +345,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502437717573</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="removed unnecessary again">
+      <created>1502438803697</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1502438803697</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3615000" />
+    <option name="totallyTimeSpent" value="6859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -403,7 +401,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="init" />
     <MESSAGE value="removed unnecessary" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed unnecessary" />
+    <MESSAGE value="removed unnecessary again" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed unnecessary again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -492,36 +491,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/classes/Pool.class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/classes/Object.class.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/classes/Platform.class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/stages/Preload.stage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -546,20 +519,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/stages/Preload.stage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/Pool.class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/classes/Player.class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="28" column="78" lean-forward="false" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+        <state relative-caret-position="162">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/Platform.class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/stages/Level.stage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>

@@ -12,6 +12,7 @@ export default class Platform extends GameObject{
         this.reset(x, y);
         this.exists = true;
         this.active = true;
+        this.body.velocity.x = -128;
     };
 
 }

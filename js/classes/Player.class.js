@@ -7,10 +7,11 @@ export default class Player extends Phaser.Sprite {
         this.game = game;
         this.exists = false;
         this.anchor.setTo(0.5, 0.5);
-        this.game.physics.enable(this);
+        this.game.physics.arcade.enable(this)
         this.body.allowGravity = true;
         this.body.immovable = false;
-        this.jumpVelocity = -650
+        this.jumpVelocity = -650;
+        this.body.bounce.set(0.25);
     };
 
     create(x, y) {

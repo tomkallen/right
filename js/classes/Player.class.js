@@ -13,7 +13,6 @@ export default class Player extends Phaser.Sprite {
         this.body.allowGravity = true;
         this.body.immovable = false;
         this.jumpVelocity = -650;
-        this.body.bounce.set(0.2);
     };
 
     create(x, y) {

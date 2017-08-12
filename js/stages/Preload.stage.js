@@ -19,7 +19,7 @@ export class Preload {
         game.Key = {cursors, one, two, three};
 
         game.physics.startSystem(Phaser.Physics.ARCADE);
-        game.physics.arcade.gravity.y = 1000;
+        game.physics.arcade.gravity.y = 1200;
 
         game.walls = [];
         game.state.start("Level");
